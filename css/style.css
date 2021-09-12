@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -6,26 +5,92 @@
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 16px;
 }
 
 #header {
-  width: 100% ;
+  width: 100%;
   height: 60px;
+  line-height: 60px;
+  padding: 0px 100px;
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   justify-items: center;
 }
+
 #heading {
   margin-top: 100px;
 }
+
+#nav-bar ul {
+  display: flex;
+}
+
+#nav-bar ul li {
+  margin-left: 60px;
+  list-style: none;
+}
+
+#nav-bar ul li a {
+  color: #333;
+}
+
+#header-img {
+  width: 250px;
+  padding-top: 15px;
+}
+
+#heading {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+#form input[type="email"] {
+  padding: 5px 8px;
+}
+
+#form input[type="submit"] {
+  padding: 5px 8px;
+  border: none;
+  background-color: #F1C40F;
+  margin-top: 6px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/* Features styles */
+main{
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.feature-divs{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.icons{
+  margin-right: 50px;
+  color: orange;
+  font-size: 50px;
+}
+
+
+/* How it Works Styles */
+#how-it-works{
+  margin-top: 80px;
+  text-align: center;
+}
+
 
 @media screen and (max-width: 768px) {
   body {
     background-color: red;
   }
-} 
-
+}

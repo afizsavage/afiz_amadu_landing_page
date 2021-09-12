@@ -2,19 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
+    <!-- Top Header -->
     <header id="header">
       <img
         id="header-img"
         src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
         alt="product-landing-page-logo"
-        width="200px"
+        width="250"
       />
       <nav id="nav-bar">
         <ul>
@@ -31,6 +36,7 @@
       </nav>
     </header>
 
+    <!-- Heading description -->
     <div id="heading">
       <h1>Handcrafted, home-made masterpieces</h1>
       <form
@@ -45,57 +51,59 @@
           placeholder="Enter your email address"
           required
         />
+        <br />
         <input type="submit" id="submit" value="GET STARTED" />
       </form>
     </div>
+    <main>
+      <section id="features">
+        <div class="feature-divs">
+          <i class="fas fa-fire icons" style="font-size: 80px;"></i>
+          <div>
+            <h2>Premium Materials</h2>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="feature-divs">
+          <i class="fas fa-truck icons"></i>
+          <div>
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="feature-divs">
+          <i class="fas fa-battery-three-quarters icons"></i>
+          <div>
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <section id="features">
-      <div>
-        <i>Icon</i>
-        <div>
-          <h2>Premium Materials</h2>
-          <p>
-            Our trombones use the shiniest brass which is sourced locally. This
-            will increase the longevity of your purchase.
-          </p>
-        </div>
-      </div>
-      <div>
-        <i>Icon</i>
-        <div>
-          <h2>Fast Shipping</h2>
-          <p>
-            We make sure you recieve your trombone as soon as we have finished
-            making it. We also provide free returns if you are not satisfied.
-          </p>
-        </div>
-      </div>
-      <div>
-        <i>Icon</i>
-        <div>
-          <h2>Quality Assurance</h2>
-          <p>
-            For every purchase you make, we will ensure there are no damages or
-            faults and we will check and test the pitch of your instrument.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="how-it-works">
-      <iframe
-        id="video"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ODqlW2OEss0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      >
-      </iframe>
-    </section>
-    <section id="pricing">Pricing</section>
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ODqlW2OEss0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe>
+      </section>
+      <section id="pricing">Pricing</section>
+    </main>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="js/index.js"></script>
